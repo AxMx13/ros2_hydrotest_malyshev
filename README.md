@@ -38,3 +38,9 @@ You should see similar output:
 ![pics/image2.png](pics/image2.png)
 
 # How to use launch file
+```
+cd ros2_hydrotest_malyshev
+colcon build
+source install/setup.bash
+ros2 launch simple_publisher_subscriber example_launch.py 
+```
